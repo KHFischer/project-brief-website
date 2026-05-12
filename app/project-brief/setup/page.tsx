@@ -34,8 +34,18 @@ export default function SetupPage() {
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <IntakeFormLink href={formUrl}>{siteContent.setup.intakeCta}</IntakeFormLink>
+          <div className="mt-8 rounded-lg border border-border bg-background p-5">
+            <h2 className="text-xl font-semibold text-text">
+              {siteContent.setup.intakeHeading}
+            </h2>
+            <p className="mt-3 text-base leading-8 text-muted">
+              {siteContent.setup.intakeBody}
+            </p>
+            <div className="mt-5">
+              <IntakeFormLink href={formUrl}>{siteContent.setup.intakeCta}</IntakeFormLink>
+            </div>
+          </div>
+          <div className="mt-5">
             <ButtonLink href="/project-brief" variant="secondary">
               Return to Project Brief
             </ButtonLink>

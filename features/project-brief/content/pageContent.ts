@@ -83,9 +83,11 @@ export const siteContent = {
     body: [
       "Thanks for starting Project Brief.",
       "We will email you within 24 hours to set up your contractor profile, service territory, project preferences, and preferred briefing schedule.",
-      "Your first territory brief arrives within 7 days after intake is complete.",
     ],
-    intakeCta: "Complete intake now",
+    intakeHeading: "Prefer to start now?",
+    intakeBody:
+      "You can send us your setup details here. If you complete it now, we will review it before reaching out and confirm whether anything else is needed.",
+    intakeCta: "Start setup",
     cancellation:
       "Month to month. Cancel before your next renewal and you will not be charged again.",
   },
