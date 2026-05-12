@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8f7f3;
+  --surface: #ffffff;
+  --text: #232323;
+  --text-muted: #555b61;
+  --text-soft: #737373;
+  --blue: #063f5f;
+  --blue-dark: #082f49;
+  --border: #e3e1dc;
+  --border-strong: #c8cbc8;
+  --success: #2f6f4e;
+  --warning: #8a5a00;
+  --danger: #9b2c2c;
+  --font-sans: "Inter", "Geist", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "Roboto Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+summary {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(6, 63, 95, 0.16);
+}
+
+:focus-visible {
+  outline: 3px solid rgba(6, 63, 95, 0.35);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
