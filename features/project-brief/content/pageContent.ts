@@ -9,7 +9,7 @@ export const siteContent = {
   hero: {
     headline: "Qualified demo and abatement briefs.\nNot another lead feed.",
     subheadline:
-      "Scheduled email briefs for C-21 and C-22 contractors. We monitor permits, bid sources, and public agency opportunities in your territory, then send the jobs worth checking with fit notes, deadlines, watch-outs, and next steps.",
+      "Scheduled email briefs for demolition and abatement contractors. We monitor permits, bid sources, and public agency opportunities in your territory, then send the jobs worth checking with fit notes, deadlines, watch-outs, and next steps.",
     primaryCta: "Start first month for $299",
     secondaryCta: "See sample brief",
     microcopy:
@@ -25,13 +25,13 @@ export const siteContent = {
         icon: "filter",
       },
       {
-        title: "Built for C-21 / C-22",
+        title: "Built for demolition and abatement",
         body: "Demo, abatement, NESHAP, AQMD, public bids, permits, and site walks.",
         icon: "license",
       },
       {
         title: "Matched to your profile",
-        body: "Filtered by license, territory, project size, timing, and exclusions.",
+        body: "Filtered by trade, territory, project size, timing, and exclusions.",
         icon: "target",
       },
       {
@@ -56,7 +56,7 @@ export const siteContent = {
       },
       {
         title: "Complete intake by email",
-        body: "Tell us your license, territory, project preferences, exclusions, and delivery schedule.",
+        body: "Tell us your trade focus, territory, project preferences, exclusions, and delivery schedule.",
       },
       {
         title: "Get your scheduled brief",

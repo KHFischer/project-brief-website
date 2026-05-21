@@ -9,8 +9,8 @@ export const heroBrief = {
     "Abatement appears required",
   ],
   whyItFits: [
-    "C-22 asbestos abatement match",
-    "C-21 demolition match",
+    "Asbestos abatement scope match",
+    "Demolition scope match",
     "Within your service area",
   ],
   nextStep:
@@ -35,8 +35,8 @@ export const fullSampleBrief = {
     {
       title: "Why it fits you",
       items: [
-        "C-22 asbestos abatement match",
-        "C-21 demolition match",
+        "Asbestos abatement scope match",
+        "Demolition scope match",
         "Within your 50-mile radius",
         "Institutional/school work",
       ],

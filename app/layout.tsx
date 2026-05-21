@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | Project Brief",
   },
   description:
-    "Scheduled email briefs for C-21 and C-22 demolition and abatement contractors. Project Brief monitors permits, public bids, and relevant sources, then sends the jobs worth checking.",
+    "Scheduled email briefs for demolition and abatement contractors. Project Brief monitors permits, public bids, and relevant sources, then sends the jobs worth checking.",
   alternates: {
     canonical: canonicalUrl(),
   },

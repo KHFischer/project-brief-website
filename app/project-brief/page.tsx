@@ -11,7 +11,7 @@ import { canonicalUrl } from "@/lib/urls";
 export const metadata: Metadata = {
   title: "Project Brief | Qualified Demo and Abatement Briefs",
   description:
-    "Scheduled email briefs for C-21 and C-22 demolition and abatement contractors. Project Brief monitors permits, public bids, and relevant sources, then sends the jobs worth checking.",
+    "Scheduled email briefs for demolition and abatement contractors. Project Brief monitors permits, public bids, and relevant sources, then sends the jobs worth checking.",
   alternates: {
     canonical: canonicalUrl("/project-brief"),
   },
